@@ -1,4 +1,4 @@
-import model as game
+import mineSweeperGrid as game
 import random
 
 

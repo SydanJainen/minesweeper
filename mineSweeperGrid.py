@@ -200,8 +200,7 @@ class Minesweeper:
                 if self.hittedMine == True:
                     self.gameFinished("You Lose !")
                     break
-                if (
-                        self.unexplored - self.flagnumber == 0 and self.flagnumber == self.nBomb) or self.unexplored == self.nBomb:
+                if (self.unexplored - self.flagnumber == 0 and self.flagnumber == self.nBomb) or self.unexplored == self.nBomb:
                     self.gameFinished("You Win !")
                     break
                 self.printBoard(1)
