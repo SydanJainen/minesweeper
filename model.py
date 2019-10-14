@@ -1,6 +1,7 @@
 import random
 from termcolor import cprint
 import numpy
+import mineSweeperCell
 
 """ in knowngrid  9 sta per 0 esplorato. 0 sta per 0 non esplorato. -1 bomba. -2 flag """
 class Minesweeper:
@@ -205,8 +206,3 @@ class Minesweeper:
             else:
                 print("input not valid")
 
-
-
-
-mine = Minesweeper()
-mine.play()
